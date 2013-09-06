@@ -12,9 +12,9 @@ gem 'hackety_hack-lessons', '~> 1.1', :require => 'hackety_hack/lessons'
 gem 'prawn'
 # Authentication gems for making features "omniauthable"
 
-gem 'omniauth'
-gem 'omniauth-linkedin'
 gem 'omniauth-twitter', '1.0.0'
+gem 'omniauth-linkedin'
+gem 'omniauth'
 gem 'twitter'
 gem 'fb_graph'
 gem 'omniauth-facebook'
@@ -24,8 +24,8 @@ gem 'omniauth-yahoo'
 
 gem 'haml-rails'
 gem 'jquery-rails'
-gem 'mongoid'
-#gem 'mongo_mapper'
+#gem 'mongoid'
+gem 'mongo_mapper'
 gem 'bson_ext'
 
 gem "letter_opener", group: :development
